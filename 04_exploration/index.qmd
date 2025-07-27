@@ -146,6 +146,15 @@ Now it's your turn! Explore the data yourself:
 What is the geographic scale of our data? (hint: geoscale column)
 
 ```{r}
+geog_scale_precision <- as.data.frame(table(fossils$geogscale))
+sum(is.na(fossils$geogscale))
+geog_scale_precision[nrow(geog_scale_precision) + 1,] = c("Range_UNSPECIFIED","456")
+
+ggplot(geog_scale_precision, aes(x = Var1, y= Freq)) +
+  geom_bar() +
+  labs(x = "Geographic scale",
+       y = "Frequency")
+
 
 ```
 
@@ -560,6 +569,7 @@ Now it's time for you to explore that data yourself. First, using the code chunk
 Can you find any additional ***missing data***? What will you do with them?
 
 ```{r}
+
 
 ```
 
