@@ -1,10 +1,10 @@
 # Palaeoverse Workshop Template
 
 # Sarah's 'unique' version - here I am modifying it on 27/07/2025
-# Please enjoy a relatable Haiku, as suggested.
+## Please enjoy a relatable Haiku, as suggested.
           ~ I am still not done ~
  
-      ~ with my talk due on Thursday ~
+     ~ with my talk due on Thursday ~
 
           ~ let's not panic yet ~
 
